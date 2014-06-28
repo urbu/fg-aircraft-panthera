@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>speed.ac</path>
+  
+ 
+  <animation> 
+		<type>material</type> 
+		
+		<object-name>speedometer</object-name>
+		<object-name>arrow_speed</object-name>
+		
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/instruments.png</texture>  
+		
+ </animation>
+ 
+ <animation>
+        <type>rotate</type>
+        <object-name>arrow_speed</object-name>
+	<property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
+	<interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+            <entry><ind>60</ind><dep>45</dep></entry>
+	    <entry><ind>80</ind><dep>76</dep></entry>
+            <entry><ind>100</ind><dep>110</dep></entry>
+	    <entry><ind>120</ind><dep>144</dep></entry>
+            <entry><ind>140</ind><dep>178</dep></entry>
+	    <entry><ind>160</ind><dep>210</dep></entry>
+            <entry><ind>180</ind><dep>241</dep></entry>
+	    <entry><ind>200</ind><dep>272</dep></entry>
+            <entry><ind>220</ind><dep>302</dep></entry>
+	    <entry><ind>240</ind><dep>330</dep></entry>
+        </interpolation>
+	<center>
+            <x-m>0.09703</x-m>
+            <y-m>-2.04467</y-m>
+            <z-m>0.16518</z-m>
+        </center>
+	<axis>
+            <x>0</x>
+            <y>-1</y>
+            <z>0</z>
+        </axis>
+ </animation>
+
+
+	
+</PropertyList>

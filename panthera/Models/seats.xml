@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>seats.ac</path>
+  <animation> 
+		<type>material</type> 
+		<object-name>seat_front_right</object-name>
+		<object-name>seat_front_left</object-name>
+		<object-name>seat_back_right</object-name>
+		<object-name>seat_back_left</object-name>
+		<condition>
+			<not>
+				<property>sim/rendering/rembrandt/enabled</property>
+			</not>
+		</condition>  
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/seat_text.png</texture>  
+		
+	</animation>
+</PropertyList>

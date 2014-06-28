@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>thrust.ac</path>
+  
+ 
+  <animation> 
+		<type>material</type> 
+		
+		<object-name>throtle</object-name>
+		<object-name>prop</object-name>
+		<object-name>mix</object-name>
+		
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/instruments.png</texture>  
+		
+ </animation>
+ 
+ <animation>
+        <type>rotate</type>
+        <object-name>throtle</object-name>
+	<property>controls/engines/engine/throttle</property>
+	<interpolation>
+            <entry><ind>0</ind><dep>-67</dep></entry>
+            <entry><ind>1</ind><dep>50</dep></entry>
+        </interpolation>
+	<center>
+            <x-m>0.03059</x-m>
+            <y-m>-1.73292</y-m>
+            <z-m>-0.33211</z-m>
+        </center>
+	<axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+ </animation>
+ 
+ <animation>
+        <type>rotate</type>
+        <object-name>prop</object-name>
+	<property>controls/engines/engine/propeller-pitch</property>
+	<interpolation>
+            <entry><ind>0</ind><dep>-47</dep></entry>
+            <entry><ind>1</ind><dep>45</dep></entry>
+        </interpolation>
+	<center>
+            <x-m>0.00002</x-m>
+            <y-m>-1.73292</y-m>
+            <z-m>-0.33211</z-m>
+        </center>
+	<axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+ </animation>
+ 
+ <animation>
+        <type>rotate</type>
+        <object-name>mix</object-name>
+	<property>controls/engines/engine/mixture</property>
+	<interpolation>
+            <entry><ind>0</ind><dep>-47</dep></entry>
+            <entry><ind>1</ind><dep>50</dep></entry>
+        </interpolation>
+	<center>
+            <x-m>-0.03075</x-m>
+            <y-m>-1.73292</y-m>
+            <z-m>-0.33211</z-m>
+        </center>
+	<axis>
+            <x>1</x>
+            <y>0</y>
+            <z>0</z>
+        </axis>
+ </animation>
+
+
+	
+</PropertyList>

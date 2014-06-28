@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>interior.ac</path>
+  
+  
+  <animation> 
+		<type>material</type> 
+		<object-name>body_int</object-name>
+		<object-name>window_int</object-name>
+		<object-name>door_front_right_int</object-name>
+		<object-name>door_front_left_int</object-name>
+		<object-name>door_back_int</object-name>
+		<object-name>floor</object-name>
+		
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/interior.png</texture>  
+		
+	</animation>
+</PropertyList>

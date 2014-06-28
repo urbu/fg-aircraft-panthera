@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>att.ac</path>
+  
+ 
+  <animation> 
+		<type>material</type> 
+		
+		<object-name>attitude</object-name>
+		<object-name>attitude_tape</object-name>
+		
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/instruments.png</texture>  
+		
+ </animation>
+ 
+
+<animation>
+        <name>Attitude indicator</name>
+        <type>texmultiple</type>
+        <object-name>attitude_tape</object-name>
+	<transform>
+            <subtype>textranslate</subtype>
+            <property>orientation/pitch-deg</property>
+            <interpolation>
+                <entry><ind>-90.0</ind><dep>-0.21</dep></entry>
+                <entry><ind>0.0</ind><dep>0.0</dep></entry>
+                <entry><ind>90.0</ind><dep>0.21</dep></entry>
+            </interpolation>
+            <axis>
+                <x>0</x>
+                <y>1</y>
+            </axis>
+	</transform>
+	<transform>
+            <subtype>texrotate</subtype>
+            <property>orientation/roll-deg</property>
+            <axis>
+                <x>0</x>
+                <y>0</y>
+                <z>-1</z>
+            </axis>
+            <center>
+                <x>0.92</x>
+                <y>0.61</y>
+            </center>
+	</transform>
+ </animation>
+</PropertyList>

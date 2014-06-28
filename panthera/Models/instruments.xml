@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>  
+<PropertyList> 
+
+  <path>instruments.ac</path>
+  <model>
+	<path>Aircraft/panthera/Models/instruments/speed.xml</path>
+  </model>
+  
+  <model>
+	<path>Aircraft/panthera/Models/instruments/alt.xml</path>
+  </model>
+  <model>
+	<path>Aircraft/panthera/Models/instruments/att.xml</path>
+  </model>
+  <model>
+	<path>Aircraft/panthera/Models/instruments/thrust.xml</path>
+  </model>
+  
+ 
+  <animation> 
+		<type>material</type> 
+		<object-name>GPS_left</object-name>
+		<object-name>GPS_left_knob_left</object-name>
+		<object-name>GPS_left_knob_right</object-name>
+		
+		<object-name>GPS_middle</object-name>
+		<object-name>GPS_middle_button_bottom_bottom</object-name>
+		<object-name>GPS_middle_button_bottom_top</object-name>
+		<object-name>GPS_middle_button_top_bottom</object-name>
+		<object-name>GPS_middle_button_top_top</object-name>
+		<object-name>GPS_middle_knob_bottom_left</object-name>
+		<object-name>GPS_middle_knob_bottom_right</object-name>
+		<object-name>GPS_middle_knob_top_left</object-name>
+		<object-name>GPS_middle_knob_top_right</object-name>
+		
+		<object-name>GPS_right</object-name>
+		<object-name>GPS_right_knob_left</object-name>
+		<object-name>GPS_right_knob_right</object-name>
+		
+		<object-name>attitude</object-name>
+		
+		<object-name>b_button.001</object-name>
+		<object-name>b_button.002</object-name>
+		<object-name>b_button.003</object-name>
+		<object-name>b_button.004</object-name>
+		<object-name>b_button.005</object-name>
+		<object-name>b_button.006</object-name>
+		
+		<object-name>button_base</object-name>
+		<object-name>button_baseplate</object-name>
+		
+		<object-name>button_left.001</object-name>
+		<object-name>button_left.002</object-name>
+		<object-name>button_left.003</object-name>
+		<object-name>button_left.004</object-name>
+		<object-name>button_left.005</object-name>
+		<object-name>button_left.006</object-name>
+		<object-name>button_left.007</object-name>
+		<object-name>button_left.008</object-name>
+		
+		<object-name>button_right.001</object-name>
+		<object-name>button_right.002</object-name>
+		<object-name>button_right.003</object-name>
+		<object-name>button_right.004</object-name>
+		<object-name>button_right.005</object-name>
+		<object-name>button_right.006</object-name>
+		<object-name>button_right.007</object-name>
+		<object-name>button_right.008</object-name>
+		
+		<object-name>com_button_base</object-name>
+		<object-name>com_button_left</object-name>
+		<object-name>com_button_right</object-name>
+		
+		<object-name>flap_base</object-name>
+		<object-name>flap_lever</object-name>
+		
+		<object-name>fuse</object-name>
+		<object-name>fuse.001</object-name>
+		<object-name>fuse.002</object-name>
+		<object-name>fuse.003</object-name>
+		<object-name>fuse.004</object-name>
+		<object-name>fuse.005</object-name>
+		<object-name>fuse.006</object-name>
+		<object-name>fuse.007</object-name>
+		<object-name>fuse.008</object-name>
+		<object-name>fuse.009</object-name>
+		<object-name>fuse.010</object-name>
+		<object-name>fuse.011</object-name>
+		<object-name>fuse.012</object-name>
+		<object-name>fuse.013</object-name>
+		<object-name>fuse.014</object-name>
+		<object-name>fuse.015</object-name>
+		<object-name>fuse.016</object-name>
+		<object-name>fuse.017</object-name>
+		<object-name>fuse.018</object-name>
+		<object-name>fuse_base</object-name>		
+		<object-name>fuse_panel</object-name>
+		
+		<object-name>gear_liver</object-name>
+		<object-name>gear_panel</object-name>
+		
+		<object-name>ignition</object-name>
+		<object-name>ignition_key</object-name>
+		
+		<object-name>light_left</object-name>
+		<object-name>light_right</object-name>
+		<object-name>light_ring_left</object-name>
+		<object-name>light_ring_right</object-name>
+		
+		<object-name>main_sw</object-name>
+		<object-name>main_sw_base</object-name>
+		<object-name>master_sw</object-name>
+		<object-name>master_sw_base</object-name>
+		
+		<object-name>radio_base</object-name>
+		<object-name>radio_knob_left</object-name>
+		<object-name>radio_knob_rigt</object-name>
+		<object-name>radio_light.001</object-name>
+		<object-name>radio_light.002</object-name>
+		<object-name>radio_light.003</object-name>
+		
+		<object-name>switch.001</object-name>
+		<object-name>switch.002</object-name>
+		<object-name>switch.003</object-name>
+		<object-name>switch.004</object-name>
+		<object-name>switch.005</object-name>
+		<object-name>switch.006</object-name>
+		<object-name>switch.007</object-name>
+		<object-name>switch_base</object-name>
+		<object-name>switch_panel</object-name>
+		
+		<object-name>warning_light_left.001</object-name>
+		<object-name>warning_light_left.002</object-name>
+		<object-name>warning_light_left.003</object-name>
+		<object-name>warning_light_left.004</object-name>
+		<object-name>warning_light_left.005</object-name>
+		<object-name>warning_light_left.006</object-name>
+		<object-name>warning_light_left.007</object-name>
+		<object-name>warning_light_left.008</object-name>
+		
+		<object-name>warning_light_middle.001</object-name>
+		<object-name>warning_light_middle.002</object-name>
+		<object-name>warning_light_middle.003</object-name>
+		<object-name>warning_light_middle.004</object-name>
+		<object-name>warning_light_middle.005</object-name>
+		<object-name>warning_light_middle.006</object-name>
+		<object-name>warning_light_middle.007</object-name>
+		<object-name>warning_light_middle.008</object-name>
+		
+		<object-name>warning_light_left.001</object-name>
+		<object-name>warning_light_left.002</object-name>
+		<object-name>warning_light_left.003</object-name>
+		<object-name>warning_light_left.004</object-name>
+		<object-name>warning_light_left.005</object-name>
+		<object-name>warning_light_left.006</object-name>
+		<object-name>warning_light_left.007</object-name>
+		<object-name>warning_light_left.008</object-name>
+		
+		<object-name>warning_panel_left</object-name>
+		<object-name>warning_light_middle</object-name>
+		<object-name>warning_light_right</object-name>
+		
+		<object-name>SD</object-name>
+		<object-name>bolts</object-name>
+		
+		<texture-prop>texture</texture-prop>  
+		<texture>textures/instruments.png</texture>  
+		
+	</animation>
+</PropertyList>
